@@ -143,7 +143,7 @@
 
         <div class="flex items-center space-x-4">
             <!-- Dealer Hotline Badge (Updated with user phone number) -->
-            <a href="tel:8143807462" class="hidden sm:flex items-center space-x-2 bg-zinc-900 border border-zinc-800 px-4 py-2 rounded-xl text-xs font-medium text-slate-300 hover:border-amber-400/50 transition">
+            <a href="tel:+918143807462" class="hidden sm:flex items-center space-x-2 bg-zinc-900 border border-zinc-800 px-4 py-2 rounded-xl text-xs font-medium text-slate-300 hover:border-amber-400/50 transition">
                 <i class="fa-solid fa-phone text-amber-400"></i>
                 <span class="font-semibold">+91 81438 07462</span>
             </a>
