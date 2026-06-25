@@ -239,7 +239,7 @@
                     <p class="text-slate-400 text-sm mb-6 leading-relaxed">Engineered with smart dual torque controls and extreme dust sealing to bypass tough jobsite wear.</p>
                 </div>
                 <div>
-                    <div class="border-t border-zinc-800/80 pt-4 mb-6 flex justify-between items-center">
+                    <div class="border-t border-zinc-800 pt-4 mb-6 flex justify-between items-center">
                         <span class="text-xs text-slate-400 uppercase tracking-widest font-semibold">B2B MSRP:</span>
                         <span class="text-2xl font-black heading-font text-white">₹24,999</span>
                     </div>
@@ -274,7 +274,7 @@
                     <p class="text-slate-400 text-sm mb-6 leading-relaxed">Equipped with custom high-carbon blades and micro-active stabilizer systems for professional metal cuts.</p>
                 </div>
                 <div>
-                    <div class="border-t border-zinc-800/80 pt-4 mb-6 flex justify-between items-center">
+                    <div class="border-t border-zinc-800 pt-4 mb-6 flex justify-between items-center">
                         <span class="text-xs text-slate-400 uppercase tracking-widest font-semibold">B2B MSRP:</span>
                         <span class="text-2xl font-black heading-font text-white">₹32,499</span>
                     </div>
@@ -297,7 +297,7 @@
                         <div class="p-3 bg-amber-500/10 rounded-xl border border-amber-400/20 text-amber-400">
                             <i class="fa-solid fa-bolt text-2xl"></i>
                         </div>
-                        <span class="text-[0.65rem] font-bold text-amber-400 px-3 py-1 bg-amber-955/40 border border-emerald-500/30 rounded uppercase tracking-wider">Low Stock</span>
+                        <span class="text-[0.65rem] font-bold text-amber-400 px-3 py-1 bg-amber-950/40 border border-emerald-500/30 rounded uppercase tracking-wider">Low Stock</span>
                     </div>
 
                     <div class="flex items-center space-x-1 mb-2 text-amber-400 text-xs">
@@ -309,7 +309,7 @@
                     <p class="text-slate-400 text-sm mb-6 leading-relaxed">Direct-drive brushless motor ensuring extreme fastening capabilities for mechanical and structural engineers.</p>
                 </div>
                 <div>
-                    <div class="border-t border-zinc-800/80 pt-4 mb-6 flex justify-between items-center">
+                    <div class="border-t border-zinc-800 pt-4 mb-6 flex justify-between items-center">
                         <span class="text-xs text-slate-400 uppercase tracking-widest font-semibold">B2B MSRP:</span>
                         <span class="text-2xl font-black heading-font text-white">₹28,800</span>
                     </div>
@@ -374,7 +374,7 @@
                             <span>Target Workload</span>
                             <span id="label-workload" class="text-amber-400">Standard Carpentry</span>
                         </label>
-                        <select id="config-workload" onchange="updateConfigurator()" class="w-full bg-zinc-900 border border-zinc-800 text-slate-300 text-xs rounded-xl p-4 focus:outline-none focus:border-amber-400/50 font-bold uppercase tracking-wider">
+                        <select id="config-workload" class="w-full bg-zinc-900 border border-zinc-800 text-slate-300 text-xs rounded-xl p-4 focus:outline-none focus:border-amber-400/50 font-bold uppercase tracking-wider">
                             <option value="light">Precision Woodworking [Light Duty]</option>
                             <option value="medium" selected>Commercial Carpentry [Medium Duty]</option>
                             <option value="heavy">Heavy Masonry & Demolition [Extreme Duty]</option>
@@ -387,7 +387,7 @@
                             <span>Brushless Motor Core</span>
                             <span id="label-motor" class="text-amber-400">Eco-Brushless Core</span>
                         </label>
-                        <select id="config-motor" onchange="updateConfigurator()" class="w-full bg-zinc-900 border border-zinc-800 text-slate-300 text-xs rounded-xl p-4 focus:outline-none focus:border-amber-400/50 font-bold uppercase tracking-wider">
+                        <select id="config-motor" class="w-full bg-zinc-900 border border-zinc-800 text-slate-300 text-xs rounded-xl p-4 focus:outline-none focus:border-amber-400/50 font-bold uppercase tracking-wider">
                             <option value="eco" selected>Standard Brushless Drive</option>
                             <option value="pro">Pro-Neo Induction Core [High Heat Limit]</option>
                         </select>
@@ -412,7 +412,7 @@
                             <div id="machine-preview" class="z-10 transition-all duration-500 ease-out group-hover:scale-110 flex items-center justify-center">
                                 <!-- Dynamically replaced in JS -->
                             </div>
-                            <span class="absolute bottom-2 right-3 text-[0.55rem] font-mono text-amber-500/50 tracking-wider">REF. DEVICE: <span id="schematic-id" class="text-amber-450 font-bold">#M99-ROTARY-IMPACT-DRILL</span></span>
+                            <span class="absolute bottom-2 right-3 text-[0.55rem] font-mono text-amber-400/50 tracking-wider">REF. DEVICE: <span id="schematic-id" class="text-amber-400 font-bold">#M99-ROTARY-IMPACT-DRILL</span></span>
                         </div>
                     </div>
                 </div>
@@ -489,7 +489,7 @@
             
             <!-- Left Side Details -->
             <div class="lg:col-span-5 space-y-6">
-                <div class="industrial-card p-6 rounded-xl border-zinc-850 space-y-4">
+                <div class="industrial-card p-6 rounded-xl border-zinc-800 space-y-4">
                     <div class="flex items-center space-x-3 text-amber-400">
                         <i class="fa-solid fa-building text-xl"></i>
                         <span class="heading-font font-bold text-white text-lg">Main Manufacturing Station</span>
@@ -500,7 +500,7 @@
                     </p>
                 </div>
 
-                <div class="industrial-card p-6 rounded-xl border-zinc-850 space-y-3 text-xs">
+                <div class="industrial-card p-6 rounded-xl border-zinc-800 space-y-3 text-xs">
                     <div class="flex justify-between">
                         <span class="text-slate-500 uppercase tracking-wider font-semibold">Coordinates:</span>
                         <span class="text-amber-400 font-bold">17.42° N, 78.56° E</span>
@@ -516,7 +516,7 @@
                 </div>
 
                 <!-- Dealer Stock Feed -->
-                <div class="bg-[#0e0f12] p-4 rounded-xl border border-zinc-850 space-y-2">
+                <div class="bg-[#0e0f12] p-4 rounded-xl border border-zinc-800 space-y-2">
                     <div class="flex justify-between items-center text-[0.65rem] text-slate-500">
                         <span class="font-bold">LIVE SHIPMENT TICKER</span>
                         <span class="animate-pulse text-emerald-400 flex items-center space-x-1">
@@ -641,8 +641,10 @@
         // Enter site from Intro
         function enterSite() {
             const screen = document.getElementById('intro-screen');
-            screen.style.opacity = '0';
-            setTimeout(() => { screen.style.display = 'none'; }, 800);
+            if (screen) {
+                screen.style.opacity = '0';
+                setTimeout(() => { screen.style.display = 'none'; }, 800);
+            }
         }
 
         // Mobile Nav Drawer Toggle
@@ -650,6 +652,7 @@
         function toggleMobileMenu() {
             const menu = document.getElementById('mobile-menu');
             const icon = document.getElementById('menu-icon');
+            if (!menu || !icon) return;
             if (isMobileMenuOpen) {
                 menu.classList.add('opacity-0', 'invisible');
                 icon.className = 'fa-solid fa-bars';
@@ -663,23 +666,22 @@
 
         // Drifting Gold/Amber Spark Particle Background
         const canvas = document.getElementById('canvas');
-        const ctx = canvas.getContext('2d');
+        const ctx = canvas ? canvas.getContext('2d') : null;
         let particles = [];
 
         function resize() {
+            if (!canvas) return;
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
         }
-        window.onresize = resize;
-        resize();
 
         class Particle {
             constructor() {
                 this.reset();
             }
             reset() {
+                if (!canvas) return;
                 this.x = Math.random() * canvas.width;
-                // Sparks start from the bottom to drift upwards
                 this.y = canvas.height + (Math.random() * 50);
                 this.vx = (Math.random() - 0.5) * 0.5;
                 this.vy = -(Math.random() * 0.6 + 0.3); // Constant upward speed
@@ -687,37 +689,43 @@
                 this.alpha = Math.random() * 0.6 + 0.2;
             }
             update() {
+                if (!canvas) return;
                 this.x += this.vx;
                 this.y += this.vy;
                 
-                // If sparks drift past top or sides, regenerate from bottom
                 if (this.y < 0 || this.x < 0 || this.x > canvas.width) {
                     this.reset();
                 }
             }
         }
 
-        for (let i = 0; i < 80; i++) {
-            particles.push(new Particle());
+        function initCanvas() {
+            if (!canvas || !ctx) return;
+            resize();
+            window.addEventListener('resize', resize);
+            
+            particles = [];
+            for (let i = 0; i < 80; i++) {
+                particles.push(new Particle());
+            }
+            animate();
         }
 
         function animate() {
+            if (!canvas || !ctx) return;
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             particles.forEach(p => { 
                 p.update(); 
                 ctx.beginPath();
                 ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-                // Render sparks in glowing warm gold/amber
                 ctx.fillStyle = `rgba(251, 191, 36, ${p.alpha})`;
                 ctx.shadowBlur = 10;
                 ctx.shadowColor = '#fbbf24';
                 ctx.fill();
-                ctx.shadowBlur = 0; // reset for performance
+                ctx.shadowBlur = 0; 
             });
             requestAnimationFrame(animate);
         }
-        animate();
-
 
         const mod = document.getElementById('spec-modal');
         const modTitle = document.getElementById('modal-title');
@@ -779,7 +787,7 @@
 
         function openSpecModal(productKey) {
             const data = specDatabase[productKey];
-            if (data) {
+            if (data && modTitle && modContent && mod) {
                 modTitle.innerText = data.title;
                 modContent.innerHTML = data.html;
                 mod.classList.remove('hidden');
@@ -787,7 +795,7 @@
         }
 
         function closeSpecModal() {
-            mod.classList.add('hidden');
+            if (mod) mod.classList.add('hidden');
         }
 
 
@@ -798,13 +806,16 @@
             const btnImpact = document.getElementById('filter-impact');
             const btnCutting = document.getElementById('filter-cutting');
             
-            [btnAll, btnImpact, btnCutting].forEach(b => {
-                b.className = "px-6 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-zinc-850 text-slate-400 hover:border-amber-400/50 hover:text-white";
-            });
+            const inactiveClass = "px-6 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-zinc-800 text-slate-400 hover:border-amber-400/50 hover:text-white";
+            const activeClass = "px-6 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-amber-400 text-black bg-amber-400";
+
+            if (btnAll) btnAll.className = inactiveClass;
+            if (btnImpact) btnImpact.className = inactiveClass;
+            if (btnCutting) btnCutting.className = inactiveClass;
 
             const activeBtn = document.getElementById(`filter-${category}`);
             if (activeBtn) {
-                activeBtn.className = "px-6 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-amber-400 text-black bg-amber-400";
+                activeBtn.className = activeClass;
             }
 
             cards.forEach(card => {
@@ -898,19 +909,25 @@
             const btnOn = document.getElementById('prot-on');
             const btnOff = document.getElementById('prot-off');
             
-            if (state) {
-                btnOn.className = "py-3 rounded-xl border border-amber-400 text-amber-400 bg-amber-500/10 text-xs font-bold uppercase tracking-wider transition-all";
-                btnOff.className = "py-3 rounded-xl border border-zinc-800 text-slate-400 bg-zinc-900 text-xs font-bold uppercase tracking-wider transition-all";
-            } else {
-                btnOn.className = "py-3 rounded-xl border border-zinc-800 text-slate-400 bg-zinc-900 text-xs font-bold uppercase tracking-wider transition-all";
-                btnOff.className = "py-3 rounded-xl border border-amber-400 text-amber-400 bg-amber-500/10 text-xs font-bold uppercase tracking-wider transition-all";
+            if (btnOn && btnOff) {
+                if (state) {
+                    btnOn.className = "py-3 rounded-xl border border-amber-400 text-amber-400 bg-amber-500/10 text-xs font-bold uppercase tracking-wider transition-all";
+                    btnOff.className = "py-3 rounded-xl border border-zinc-800 text-slate-400 bg-zinc-900 text-xs font-bold uppercase tracking-wider transition-all";
+                } else {
+                    btnOn.className = "py-3 rounded-xl border border-zinc-800 text-slate-400 bg-zinc-900 text-xs font-bold uppercase tracking-wider transition-all";
+                    btnOff.className = "py-3 rounded-xl border border-amber-400 text-amber-400 bg-amber-500/10 text-xs font-bold uppercase tracking-wider transition-all";
+                }
             }
             updateConfigurator();
         }
 
         function updateConfigurator() {
-            const workloadVal = document.getElementById('config-workload').value;
-            const motorVal = document.getElementById('config-motor').value;
+            const configWorkload = document.getElementById('config-workload');
+            const configMotor = document.getElementById('config-motor');
+            if (!configWorkload || !configMotor) return;
+
+            const workloadVal = configWorkload.value;
+            const motorVal = configMotor.value;
 
             let baseRPM = 4000;
             let baseTorque = 60;
@@ -936,11 +953,15 @@
                 baseRuntime += 5;
             }
 
-            document.getElementById('stat-rpm').innerText = `${baseRPM.toLocaleString()} RPM`;
-            document.getElementById('stat-torque').innerText = `${baseTorque} Nm`;
-            document.getElementById('stat-runtime').innerText = `${baseRuntime} mins`;
+            const rpmEl = document.getElementById('stat-rpm');
+            const torqueEl = document.getElementById('stat-torque');
+            const runtimeEl = document.getElementById('stat-runtime');
 
-            // Render Dynamic Vector Blueprint matching current configuration workload (Now completely safe and error-free!)
+            if (rpmEl) rpmEl.innerText = `${baseRPM.toLocaleString()} RPM`;
+            if (torqueEl) torqueEl.innerText = `${baseTorque} Nm`;
+            if (runtimeEl) runtimeEl.innerText = `${baseRuntime} mins`;
+
+            // Render Dynamic Vector Blueprint matching current configuration workload
             const currentSchematic = toolSymmetricSchematics[workloadVal];
             const previewContainer = document.getElementById('machine-preview');
             const labelContainer = document.getElementById('schematic-id');
@@ -963,6 +984,7 @@
         // Action Trigger
         function requestFleetTest() {
             const btn = document.querySelector('#fleet-builder button');
+            if (!btn) return;
             const originalText = btn.innerHTML;
             btn.innerHTML = `<i class="fa-solid fa-sync animate-spin"></i> <span>Compiling Workload Parameters...</span>`;
             btn.disabled = true;
@@ -976,13 +998,6 @@
             }, 2000);
         }
 
-        // Run initial config rendering safely after DOM elements exist
-        window.onload = function() {
-            updateConfigurator();
-        };
-
-
-        const logsContainer = document.getElementById('live-terminal-feed');
         const simulatedLogs = [
             "Heavy Impact Drills packed and locked for Dispatch #099A",
             "Warehouse Station 02 Stock: DB-C10 Plasma Circular Saw replenished",
@@ -993,6 +1008,7 @@
         ];
 
         function addTerminalLog() {
+            const logsContainer = document.getElementById('live-terminal-feed');
             if (!logsContainer) return;
             const randomLog = simulatedLogs[Math.floor(Math.random() * simulatedLogs.length)];
             const time = new Date().toLocaleTimeString();
@@ -1007,9 +1023,6 @@
                 logsContainer.removeChild(logsContainer.firstChild);
             }
         }
-        setInterval(addTerminalLog, 5000);
-        addTerminalLog();
-
 
         function handleContactSubmit(event) {
             event.preventDefault();
@@ -1050,6 +1063,21 @@
 
             }, 1800);
         }
+
+        // Run initial configuration and listeners safely after DOM exists
+        window.addEventListener('DOMContentLoaded', () => {
+            initCanvas();
+            updateConfigurator();
+            
+            // Set up configurator select triggers
+            const configWorkload = document.getElementById('config-workload');
+            const configMotor = document.getElementById('config-motor');
+            if (configWorkload) configWorkload.addEventListener('change', updateConfigurator);
+            if (configMotor) configMotor.addEventListener('change', updateConfigurator);
+            
+            addTerminalLog();
+            setInterval(addTerminalLog, 5000);
+        });
     </script>
 </body>
 </html>
